@@ -3,266 +3,129 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="keywords" content="tráilers, camiones, transporte, carga, ruta, bootstrap">
-    <meta name="description" content="Sitio web de camiones y tráilers escolar">
-    
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
-    <!-- FontAwesome para los iconos centrales e inferiores -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-    <!-- Tipografía redondeada similar a la maqueta original -->
-    <link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@400;600&display=swap" rel="stylesheet">
-    
-    <title>Blog personal - Alejandroooo</title>
-
-    <style>
-        body {
-            font-family: 'Fredoka', sans-serif;
-            background-color: #ffffff;
-            color: #333333;
-        }
-
-        /* 1. Franja Azul Superior */
-        .top-bar-blue {
-            background-color: #0076ce;
-            height: 50px;
-            width: 100%;
-        }
-
-        /* 2. Banner Principal con Imagen de Fondo */
-        .hero-banner {
-            background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.4)), url('../imagenes/OIP.jpg') center/cover no-repeat;
-            min-height: 350px;
-            position: relative;
-        }
-
-        .hero-title {
-            font-size: 3.2rem;
-            letter-spacing: 3px;
-            text-shadow: 2px 2px 6px rgba(0,0,0,0.7);
-        }
-
-    
-        .hero-nav {
-            position: absolute;
-            bottom: 0;
-            left: 0;
-            width: 100%;
-            background-color: rgba(0, 0, 0, 0.85);
-            border-top: 1px solid rgba(255, 255, 255, 0.2);
-        }
-
-        .hero-nav a {
-            color: #ffffff;
-            text-decoration: none;
-            font-size: 1rem;
-            font-weight: 600;
-            padding: 12px 0;
-            display: block;
-            transition: background 0.3s;
-        }
-
-        .hero-nav a:hover {
-            background-color: rgba(255, 255, 255, 0.15);
-            color: #0d6efd;
-        }
-
-        /* Títulos de Secciones */
-        .main-heading {
-            font-size: 2.2rem;
-            font-weight: 400;
-            text-align: center;
-            margin: 45px 0 25px 0;
-            color: #222222;
-        }
-
-        /* 3. Banner Intermedio (DESTINOS / MOMENTOS) */
-        .middle-banner {
-            background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../imagenes/OIP (1).jpg') center/cover no-repeat;
-            padding: 40px 0;
-            color: #ffffff;
-            text-align: center;
-            font-size: 2.5rem;
-            font-weight: 600;
-            letter-spacing: 4px;
-        }
-
-        /* 4. Pie de Página Dark (Igual al prototipo) */
-        .site-footer {
-            background-color: #111d23;
-            color: #ffffff;
-            padding: 40px 0 20px 0;
-        }
-
-        .site-footer a {
-            color: #adb5bd;
-            text-decoration: none;
-            font-size: 0.85rem;
-        }
-
-        .site-footer a:hover {
-            color: #ffffff;
-        }
-    </style>
+    <title>ALEJANDRO- Vlog Personal & Portafolio</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
 </head>
+<body class="bg-light">
 
-<body>
-
-    <!-- 1. Barra superior azul de la maqueta -->
-    <div class="top-bar-blue"></div>
-
-    <!-- 2. Header / Banner principal con Nombre y Menú -->
-    <div class="hero-banner d-flex flex-column justify-content-between text-white text-center">
-        <div class="container my-auto pt-4">
-            <h1 class="hero-title fw-bold">Alejandroooo</h1>
-            <p class="lead">Mi desarrollo en mi vlog - Habilidades aplicadas</p>
-        </div>
-
-        <!-- Menú Vuelos / Hoteles / Tours (Navegación de tu Vlog) -->
-        <div class="hero-nav">
-            <div class="container">
-                <div class="row text-center">
-                    <div class="col-4 border-end border-secondary">
-                        <a href="#">Inicio</a>
-                    </div>
-                    <div class="col-4 border-end border-secondary">
-                        <a href="#">Desarrollo</a>
-                    </div>
-                    <div class="col-4">
-                        <a href="#">Fin</a>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <!-- 3. Sección Principal: "Sobre mi" -->
-    <div class="container my-5">
-        <h2 class="main-heading">Sobre mi</h2>
+    <header class="position-relative text-center text-white">
+        <img src="https://images.unsplash.com/photo-1555066931-4365d14bab8c?auto=format&fit=crop&w=1600&q=80" class="img-fluid w-100" style="max-height: 450px; object-fit: cover;" alt="Banner Programación">
         
-        <div class="row align-items-center g-4">
-            <!-- Imagen izquierda -->
-            <div class="col-12 col-md-6">
-                <img src="../imagenes/Captura de pantalla 2026-09-25 190458.png" class="img-fluid rounded shadow" alt="Trailer principal">
+        <div class="position-absolute top-50 start-50 translate-middle">
+            <h1 class="display-4 fw-bold">LENGUAJE</h1>
+            <p class="lead">C++ | MySQL | Java | HTML5</p>
+        </div>
+
+        <div class="container-fluid bg-dark py-2">
+            <div class="row text-center text-white fw-bold">
+                <div class="col-4 border-end border-secondary">Proyectos</div>
+                <div class="col-4 border-end border-secondary">Habilidades</div>
+                <div class="col-4">Contacto</div>
             </div>
-            <!-- Texto derecha -->
-            <div class="col-12 col-md-6">
-                <p class="text-muted fs-5 lh-base">
-                    Esta es la creacion de mi vlog en donde expreso mis habilidades y areas de fuerza.
+        </div>
+    </header>
+
+    <section class="container my-5">
+        <h2 class="text-center mb-4 fw-normal">Sobre Mí & Enfoque Técnico...</h2>
+        <div class="row align-items-center">
+            <div class="col-md-6 mb-3 mb-md-0">
+                <img src="https://images.unsplash.com/photo-1498050108023-c5249f4df085?auto=format&fit=crop&w=800&q=80" class="img-fluid rounded shadow-sm" alt="Computadora de trabajo">
+            </div>
+            <div class="col-md-6">
+                <p class="text-muted">
+                    Me enfoco en la creación de software robusto, diseño de bases de datos relacionales y desarrollo de interfaces limpias. En este canal y portafolio comparto guías, demostraciones en video y ejemplos prácticos con tecnologías como C++, MySQL, Java y maquetación en HTML5.
                 </p>
             </div>
         </div>
 
-        <!-- Tres iconos destacados centrales -->
-        <div class="row text-center my-5 g-4">
-            <div class="col-md-4">
-                <i class="fa-solid fa-wifi fa-2x text-info mb-3"></i>
-                <p class="text-muted small px-3">
-                    Conexión constante y diseño responsivo optimizado para cualquier plataforma.
-                </p>
+        <div class="row text-center mt-5">
+            <div class="col-md-4 mb-3">
+                <div class="fs-1 text-info mb-2">⚙️</div>
+                <p class="small text-muted">C++ & Algoritmos: Lógica de programación, estructuras de datos y rendimiento eficiente del sistema.</p>
             </div>
-            <div class="col-md-4">
-                <i class="fa-solid fa-truck fa-2x text-info mb-3"></i>
-                <p class="text-muted small px-3">
-                    Estructuración de codigo 
-                </p>
+            <div class="col-md-4 mb-3">
+                <div class="fs-1 text-info mb-2">🛢️</div>
+                <p class="small text-muted">MySQL & Datos: Modelado entidad-relación, consultas optimizadas y gestión de bases de datos.</p>
             </div>
-            <div class="col-md-4">
-                <i class="fa-solid fa-comments fa-2x text-info mb-3"></i>
-                <p class="text-muted small px-3">
-                    Documentación y retroalimentación de los avances realizados.
-                </p>
+            <div class="col-md-4 mb-3">
+                <div class="fs-1 text-info mb-2">☕</div>
+                <p class="small text-muted">Java & POO: Programación orientada a objetos, arquitectura limpia e integración de sistemas.</p>
             </div>
         </div>
-    </div>
+    </section>
 
-    <!-- 4. Franja Banner Oscura: MOMENTOS -->
-    <div class="middle-banner shadow-sm">
-        MOMENTOS
-    </div>
+    <section class="position-relative text-center text-white my-4">
+        <img src="https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5?auto=format&fit=crop&w=1600&q=80" class="img-fluid w-100" style="max-height: 150px; object-fit: cover;" alt="Banner Código">
+        <div class="position-absolute top-50 start-50 translate-middle">
+            <h2 class="fw-bold tracking-wider">PORTAFOLIO & PROYECTOS</h2>
+        </div>
+    </section>
 
-    <!-- 5. Galería "Nacionales" / Capturas de Pantalla -->
-    <div class="container my-5">
-        <h2 class="main-heading">Capturas de la creación de mi vlog</h2>
-        <p class="text-center text-muted small mb-4">
-            A continuación se presentan los avances del sitio web registrados durante el desarrollo:
+    <section class="container my-5">
+        <h2 class="text-center mb-3">Proyectos Destacados</h2>
+        <p class="text-center text-muted mb-4 small">
+            Ejemplos visuales de desarrollo en C++, bases de datos MySQL, aplicaciones Java y maquetación en HTML.
         </p>
 
-        <!-- Grilla 3x2 idéntica a la maqueta de referencia -->
-        <div class="row g-4">
-            <div class="col-12 col-sm-6 col-md-4">
-                <img src="../imagenes/Captura de pantalla 2026-09-25 190726.png" class="img-fluid rounded shadow-sm w-100" style="height: 200px; object-fit: cover;" alt="Camion 1">
+        <div class="row g-3">
+            <div class="col-md-4 col-6">
+                <img src="https://images.unsplash.com/photo-1542831371-29b0f74f9713?auto=format&fit=crop&w=600&q=80" class="img-fluid rounded w-100 shadow-sm" alt="Código HTML5">
             </div>
-            <div class="col-12 col-sm-6 col-md-4">
-                <img src="../imagenes/Captura de pantalla 2026-09-26 103844.png" class="img-fluid rounded shadow-sm w-100" style="height: 200px; object-fit: cover;" alt="Camion 2">
+            <div class="col-md-4 col-6">
+                <img src="../imagenes/cap2.png" class="img-fluid rounded w-100 shadow-sm" alt="Base de datos MySQL">
             </div>
-            <div class="col-12 col-sm-6 col-md-4">
-                <img src="../imagenes/Captura de pantalla 2026-09-25 190726.png" class="img-fluid rounded shadow-sm w-100" style="height: 200px; object-fit: cover;" alt="Camion 3">
+            <div class="col-md-4 col-12">
+                <img src="https://images.unsplash.com/photo-1515879218367-8466d910aaa4?auto=format&fit=crop&w=600&q=80" class="img-fluid rounded w-100 shadow-sm" alt="Código C++">
             </div>
-            <div class="col-12 col-sm-6 col-md-4">
-                <img src="../imagenes/Captura de pantalla 2026-09-25 190726 - copia.png" class="img-fluid rounded shadow-sm w-100" style="height: 200px; object-fit: cover;" alt="Camion 4">
+            <div class="col-md-4 col-6">
+                <img src="https://images.unsplash.com/photo-1517694712202-14dd9538aa97?auto=format&fit=crop&w=600&q=80" class="img-fluid rounded w-100 shadow-sm" alt="Programación Java">
             </div>
-            <div class="col-12 col-sm-6 col-md-4">
-                <img src="../imagenes/Captura de pantalla 2026-09-25 190458.png" class="img-fluid rounded shadow-sm w-100" style="height: 200px; object-fit: cover;" alt="Camion 5">
+            <div class="col-md-4 col-6">
+                <img src="https://images.unsplash.com/photo-1531403009284-440f080d1e12?auto=format&fit=crop&w=600&q=80" class="img-fluid rounded w-100 shadow-sm" alt="Espacio de Trabajo">
             </div>
-            <div class="col-12 col-sm-6 col-md-4">
-                <img src="../imagenes/Captura de pantalla 2026-09-24 203610.png" class="img-fluid rounded shadow-sm w-100" style="height: 200px; object-fit: cover;" alt="Camion 6">
+            <div class="col-md-4 col-12">
+                <img src="https://images.unsplash.com/photo-1522071820081-009f0129c71c?auto=format&fit=crop&w=600&q=80" class="img-fluid rounded w-100 shadow-sm" alt="Revisión de Código">
             </div>
         </div>
-    </div>
+    </section>
 
-    <!-- 6. Pie de Página Dark con columnas de opciones y marca -->
-    <footer class="site-footer mt-5">
+    <footer class="bg-dark text-white py-4 mt-5">
         <div class="container">
             <div class="row align-items-center">
-                
-                <!-- Redes sociales a la izquierda -->
                 <div class="col-md-3 text-center text-md-start mb-3 mb-md-0">
-                    <div class="d-flex justify-content-center justify-content-md-start gap-3 fs-5">
-                        <i class="fa-brands fa-facebook-f"></i>
-                        <i class="fa-brands fa-twitter"></i>
-                        <i class="fa-brands fa-instagram"></i>
-                    </div>
+                    <span class="d-block mb-1 fs-4">💻 🐙 💼</span>
                 </div>
-
-                <!-- Lista de Opciones al Centro -->
                 <div class="col-md-6">
-                    <div class="row text-center small">
+                    <div class="row text-center small text-muted">
                         <div class="col-4">
-                            <ul class="list-unstyled mb-0">
-                                <li><a href="#">Opción 1</a></li>
-                                <li><a href="#">Opción 2</a></li>
-                                <li><a href="#">Opción 3</a></li>
-                                <li><a href="#">Opción 4</a></li>
-                            </ul>
+                            <p class="mb-1">GitHub</p>
+                            <p class="mb-1">LinkedIn</p>
+                            <p class="mb-1">YouTube</p>
+                            <p class="mb-0">Twitter/X</p>
                         </div>
                         <div class="col-4">
-                            <ul class="list-unstyled mb-0">
-                                <li><a href="#">Opción 5</a></li>
-                                <li><a href="#">Opción 6</a></li>
-                                <li><a href="#">Opción 7</a></li>
-                                <li><a href="#">Opción 8</a></li>
-                            </ul>
+                            <p class="mb-1">C++ & Java</p>
+                            <p class="mb-1">MySQL DB</p>
+                            <p class="mb-1">HTML5 Web</p>
+                            <p class="mb-0">Descargar CV</p>
                         </div>
                         <div class="col-4">
-                            <ul class="list-unstyled mb-0">
-                                <li><a href="#">Opción 9</a></li>
-                                <li><a href="#">Opción 10</a></li>
-                            </ul>
+                            <p class="mb-1">Contacto</p>
+                            <p class="mb-1">Proyectos</p>
+                            <p class="mb-0">DevLogs</p>
                         </div>
                     </div>
                 </div>
-
-                <!-- Nombre del Sitio a la Derecha -->
                 <div class="col-md-3 text-center text-md-end mt-3 mt-md-0">
-                    <h3 class="fw-bold m-0" style="letter-spacing: 2px;">Alejandroooo</h3>
-                    <small class="text-muted" style="font-size: 0.75rem;">Copyright © 2026</small>
+                    <h3 class="fw-bold m-0">Mas </h3>
                 </div>
-
+            </div>
+            <div class="text-center text-muted small mt-3 border-top border-secondary pt-2">
+                
             </div>
         </div>
     </footer>
 
-    <!-- Script de Bootstrap JS -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
